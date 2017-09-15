@@ -1,0 +1,42 @@
+% Autores: Iago Marinheiro Elias e Marília Ribeiro
+% Instituto Federal Catarinense - Campus Araquari
+% Bacharelado em Sistemas de Informação
+% NODES - Fábrica de Software
+
+\documentclass[12pt,article,a4paper,brazil,oldfontcommands,oneside]{abntex2}
+
+\input{package}
+\input{configuracao}
+
+% Informações de dados para CAPA e FOLHA DE ROSTO
+\titulo{Modelo Resumo Expandido: \LaTeX}
+
+\autor{Iago Marinheiro Elias, Marília Ribeiro, Eduardo da Silva}
+
+\idautor{Bolsista PIBITI-EM/CNPq; Bolsista PIBITI-EM/CNPq; Orientador IFC-Campus Araquari;}
+
+\local{Araquari - SC - Brasil}
+\data{\today}
+
+\begin{document}
+\maketitle			% página de titulo
+
+% ---- Imagens do cabeçalho e rodapé ---- %
+\ULCornerWallPaper{1}{imagem/header.png}
+\LLCornerWallPaper{1}{imagem/footer.png}
+ 
+% ---- Numeração de páginas ---- %
+\thispagestyle{empty} %remove o número da página somente nessa página
+% \pagestyle{empty} %enumera somente o inío de um capílo de texto
+% -------- 
+ 
+\input{1-resumo}
+\input{2-introducao}
+\input{3-metodologia}
+\input{4-resultados}
+\input{5-consideracoes}
+
+\renewcommand{\bibsection}{\center{\textbf{\uppercase{\large Referências}}}}
+
+\bibliography{refs}
+\end{document}
