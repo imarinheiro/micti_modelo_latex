@@ -8,7 +8,7 @@ Modelo de Resumo Expandido MICTI IFC
 Desenvolvido
 -------------
 
-- **Autores**: Iago Marinheiro Elias e Marília Ribeiro
+- **Autores**: Iago Marinheiro Elias e Marília Ribeiro da Silva
 
 - **Instituição**: Instituto Federal Catarinense - Campus Araquari
 
@@ -23,4 +23,4 @@ Dúvidas
 
 - **Iago Marinheiro Elias**: [go.marinheiro@gmail.com](mailto:go.marinheiro@gmail.com)
 
-- **Marília Ribeiro**: [marilia.ifc@gmail.com](mailto:marilia.ifc@gmail.com)
+- **Marília Ribeiro da Silva**: [marilia.ifc@gmail.com](mailto:marilia.ifc@gmail.com)
